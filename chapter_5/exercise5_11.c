@@ -25,7 +25,7 @@ int main() {
     printf("数学的总分是%d\n",sum2);printf("数学的平均分是%d\n",anv2);
     for(i=0;i<N;i++)
     {
-    	printf("第%d位学生  总分：%d    平均分：%d   \n",i+1,a[i]+b[i],(a[i]+b[i])/2);
+        printf("第%d位学生  总分：%d    平均分：%d   \n",i+1,a[i]+b[i],(a[i]+b[i])/2);
     }
 
 }
