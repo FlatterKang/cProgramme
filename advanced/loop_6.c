@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+
 void printRegTri(int n) {
     int i, j;
 

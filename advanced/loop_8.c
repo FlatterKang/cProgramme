@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main() {
     int bottle = 0, money;
     printf("请输入您现在有多少钱：");

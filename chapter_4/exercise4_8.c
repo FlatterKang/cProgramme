@@ -7,7 +7,7 @@ int main() {
     printf("请输入一个正数：");
     scanf("%d", &no);
     if(no<1)
-    	exit(0);
+        exit(0);
     while (no-- > 0) {
         putchar('*');
     }

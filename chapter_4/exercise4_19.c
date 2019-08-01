@@ -14,7 +14,7 @@ int main(void)
         if (n % i == 0)
             printf("%d ", i);
         if (n%i==0)
-        	m++;
+            m++;
     }
     putchar('\n');
     printf("%d\n", m);

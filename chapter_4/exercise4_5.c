@@ -16,10 +16,10 @@ int main(void)
         printf("%d ", i++);
 
     else
-    	while(i>=no)
-    		printf("%d",i--);
+        while(i>=no)
+            printf("%d",i--);
 
-    	if(no>0)
-    		printf("\n");
+        if(no>0)
+            printf("\n");
     return 0;
 }

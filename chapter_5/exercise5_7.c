@@ -4,7 +4,7 @@
 
 int main()
 {
-	int i,m=0;
+    int i,m=0;
     int x[N];
 
     for (i = 0; i < N; i++)
@@ -17,7 +17,7 @@ int main()
     printf("{");
     for(i=0;i<N;i++)
     {
-    	printf("%d, ",x[i]);
+        printf("%d, ",x[i]);
     }
     printf("}");
 }
