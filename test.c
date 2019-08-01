@@ -1,17 +1,20 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+    int dir;
 
-int main(void) {
-    int no;
+    for (int i = 0; i < 4; i++) {
+        system("stty raw");
+        dir = getchar();
 
-    printf("请输入一个正整数：");
-    scanf("%d", &no);
-
-    if (no >= 0) {
-        while (no >= 0) {
-            printf("%d ", no--);
+        if (dir == 27) {
+            getchar();
+            dir = getchar();
         }
-        printf("\n");
-    }
 
+        system("stty cooked");
+        printf("%d\n", dir);
+        
+    }
     return 0;
 }
