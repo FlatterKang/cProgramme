@@ -321,8 +321,8 @@ void addOne() {
     location = rand() % 16 + 1;
     if (rand() % 10) {
         init = 2;
-    }else {
-    	init = 4;
+    } else {
+        init = 4;
     }
     while (arr [location / 4][location % 4] != 0) {
         location = (++location) % 16;
@@ -382,8 +382,8 @@ void initialize() {
     srand((unsigned)time(NULL));
     if (rand() % 10) {
         init = 2;
-    }else {
-    	init = 4;
+    } else {
+        init = 4;
     }
     location = (rand() % 16);
     arr [location / 4][location % 4] = init;
@@ -416,7 +416,7 @@ void menu() {
         if (option == 0) {
             printf("您输了！请按回车键继续！\n");
             system("stty raw");
-            do{}while(getchar() == 13);
+            do {} while (getchar() == 13);
             system("stty cooked");
             break;
         } else {
